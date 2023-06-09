@@ -68,7 +68,7 @@ include_once("nav.php")
            3 adults maximum + 2 children</p>
     </div>
     <div class="popularroom">
-        <img src="img/Room3.jpg" alt="popular room Cover">
+        <img src="img/Room3.jpg " alt="popular room Cover">
         <h2>Junior Suite</h2>
         <p>2 single beds<br>
            3 adults maximum + 2 children</p>
