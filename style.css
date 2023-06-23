@@ -87,9 +87,9 @@ nav li a:hover:after {
 
 .logo {
   position: fixed;
-  top: -30px;
-  left: -10px;
-  width: 150px;
+  top: 10px;
+  left: 10px;
+  width: 300px;
   z-index: 3000;
 }
 
@@ -111,6 +111,7 @@ nav li a:hover:after {
 
 .container {
   position: relative;
+
 
 }
 

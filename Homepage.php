@@ -6,6 +6,19 @@ include_once("nav.php")
 
   <div class="container">
 
+  <div class="slide-container active">
+      <div class="slide">
+        <div class="content">
+          <h3>Hotel Ter Duin</h3>
+          <p>Info about our hotel</p>
+          <a href="bestellen.html" class="btn">RESERVE</a>
+        </div>
+        <div class="image">
+          <img src="img/hotel.png" alt="">
+        </div>
+      </div>
+    </div>
+
     <div class="slide-container active">
       <div class="slide">
         <div class="content">

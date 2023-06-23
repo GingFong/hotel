@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
     .logo {
       display: none;
+      
     }
     .nav {
       display: none;
