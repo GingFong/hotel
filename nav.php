@@ -20,7 +20,7 @@
         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
         <ul>
           <li><a href="Homepage.php">Home</a></li>
-          <li><a href="library.php">Bibliotheek</a></li>
+          <li><a href="library.php">Reserveren</a></li>
           <li><a href="Contact.php">Contact</a></li>
           <a href="bestellen.php"><img class="cartlogo" src="img/cart.png" alt="cart"></a>
           <a href="login.php"><img class="profilelogo" src="img/Profile.png" alt="profilelogo"></a>
