@@ -6,6 +6,7 @@ include_once("nav.php")
 <head>
 <title>Contact Page</title>
     <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
 </head>
 <body>
 <div class="section">
