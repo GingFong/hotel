@@ -126,7 +126,7 @@ include_once("nav.php")
     <div class="containerr">
       <div class="row">
         <div class="footer-col">
-          <h4>Virtual Zone</h4>
+          <h4>Hotel ter duin</h4>
 
           <li><a href="informatie.html">about us</a></li>
           <li><a href="#">our services</a></li>
