@@ -11,7 +11,7 @@
     <div class="midden">
         <table id="tabel" border="0" cellspacing="3">
             <caption>
-                <h1>Klanten</h1>
+                <h1>Reservations</h1>
             </caption>
             <thead>
                 <?php
