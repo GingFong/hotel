@@ -25,7 +25,7 @@ include_once("nav.php")
           <h3>Superior Triple Room</h3>
           <p>The triple room provides air conditioning, a tea and coffee maker,
              as well as a private bathroom featuring a walk-in shower and a hairdryer.</p>
-          <a href="bestellen.html" class="btn">RESERVE</a>
+          <a href="reserveren.php" class="btn">RESERVE</a>
         </div>
         <div class="image">
           <img src="img/Room1.jpg" alt="">
@@ -41,7 +41,7 @@ include_once("nav.php")
             as well as a private bathroom boasting a walk-in shower and a bath. 
             The family room has carpeted floors, a seating area with a flat-screen TV with cable channels, a wardrobe, a safe deposit box, 
             as well as a sofa. The unit has 1 bed.</p>
-          <a href="bestellen.html" class="btn">RESERVE</a>
+          <a href="reserveren.php" class="btn">RESERVE</a>
         </div>
         <div class="image">
           <img src="img/Room2.jpg" alt="">
@@ -57,7 +57,7 @@ include_once("nav.php")
           <p> The air-conditioned suite features 1 bedroom and 1 bathroom with a walk-in shower and a bath. 
             The suite has carpeted floors, a seating area with a flat-screen TV with cable channels,
              a tea and coffee maker, a wardrobe, as well as a safe deposit box. The unit offers 2 beds.</p>
-          <a href="bestellen.html" class="btn">RESERVE</a>
+          <a href="reserveren.php" class="btn">RESERVE</a>
         </div>
         <div class="image">
           <img src="img/Room3.jpg" alt="">
