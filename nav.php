@@ -41,7 +41,7 @@
       <ul class="hamburger_menu">
         <li><a href="Homepage.php">Home</a></li>
         <li><a href="library.php">library</a></li>
-        <li><a href="Contact.php">Contact</a></li>
+        <li><a href="Contactpage.php">Contact</a></li>
       </ul>
 
     </nav>
