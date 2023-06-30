@@ -22,7 +22,7 @@
         <ul>
           <li><a href="Homepage.php">Home</a></li>
           <li><a href="reserveren.php">Reserveren</a></li>
-          <li><a href="Contact.php">Contact</a></li>
+          <li><a href="Contactpage.php">Contact</a></li>
           <a href="login.php"><img class="profilelogo" src="img/Profile.png" alt="profilelogo"></a>
         </ul>
       </div>

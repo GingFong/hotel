@@ -10,8 +10,8 @@ include_once("nav.php")
       <div class="slide">
         <div class="content">
           <h3>Hotel Ter Duin</h3>
-          <p>Info about our hotel</p>
-          <a href="reserveren.php" class="btn">RESERVE</a>
+          <p>for more info contact our hotel</p>
+          <a href="Contactpage.php" class="btn">contact</a>
         </div>
         <div class="image">
           <img src="img/hotel.png" alt="">
