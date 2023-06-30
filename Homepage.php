@@ -11,7 +11,7 @@ include_once("nav.php")
         <div class="content">
           <h3>Hotel Ter Duin</h3>
           <p>Info about our hotel</p>
-          <a href="bestellen.html" class="btn">RESERVE</a>
+          <a href="reserveren.php" class="btn">RESERVE</a>
         </div>
         <div class="image">
           <img src="img/hotel.png" alt="">
@@ -69,18 +69,21 @@ include_once("nav.php")
     <div class="container2">
     
     <div class="popularroom">
+    <a href="reserveren.php">
         <img src="img/Room1.jpg" alt="popular room Cover">
         <h2>Superior Triple Room</h2>
         <p>2 single bedsor1 extra-large double bed<br>
            3 adults maximum + 2 children </p>
     </div>
     <div class="popularroom">
+    <a href="reserveren.php">
         <img src="img/Room2.jpg" alt="popular room Cover">
         <h2>Family Room</h2>
         <p>1 extra-large double be<br>
            3 adults maximum + 2 children</p>
     </div>
     <div class="popularroom">
+    <a href="reserveren.php">
         <img src="img/Room3.jpg " alt="popular room Cover">
         <h2>Junior Suite</h2>
         <p>2 single beds<br>
