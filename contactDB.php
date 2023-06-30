@@ -1,53 +1,35 @@
 <?php
-// Establish a connection to the MySQL server
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "contact";
+$dbname = "contact";
 
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 
-// Create a table to store contact information
-$sql = "CREATE TABLE IF NOT EXISTS contacts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(50) NOT NULL,
-    message TEXT NOT NULL
-)";
-
-if (mysqli_query($conn, $sql)) {
-    echo "Table 'contacts' created successfully.<br>";
-} else {
-    echo "Error creating table: " . mysqli_error($conn) . "<br>";
-}
-
-// Handle form submission and insert data into the database
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $first_name = $_POST['fname'];
-    $last_name = $_POST['lname'];
-    $email = $_POST['email'];
-    $message = $_POST['help'];
+    $first_name = $_POST["fname"];
+    $last_name = $_POST["lname"];
+    $email = $_POST["email"];
+    $help = $_POST["help"];
 
-    $insert_query = "INSERT INTO contacts (first_name, last_name, email, message)
-                    VALUES ('$first_name', '$last_name', '$email', '$message')";
+    // Prepare and execute the SQL statement
+    $stmt = $conn->prepare("INSERT INTO contacts (first_name, last_name, email, message) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $first_name, $last_name, $email, $help);
+    $stmt->execute();
 
-    if (mysqli_query($conn, $insert_query)) {
-        echo "Data inserted successfully.";
+    $stmt->close();
+
+    // Display a success message or redirect the user
+    if ($stmt->affected_rows > 0) {
+        echo "Thank you for your submission!";
     } else {
-        echo "Error inserting data: " . mysqli_error($conn);
+        echo "Sorry, something went wrong. Please try again.";
     }
 }
 
-mysqli_close($conn);
+$conn->close();
 ?>
-
-<!-- The rest of your HTML code -->
-<html lang="en">
-<!-- ... -->
-</html>
