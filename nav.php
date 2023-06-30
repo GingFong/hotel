@@ -23,7 +23,6 @@
           <li><a href="Homepage.php">Home</a></li>
           <li><a href="reserveren.php">Reserveren</a></li>
           <li><a href="Contactpage.php">Contact</a></li>
-          <a href="bestellen.php"><img class="cartlogo" src="img/cart.png" alt="cart"></a>
           <a href="login.php"><img class="profilelogo" src="img/Profile.png" alt="profilelogo"></a>
         </ul>
       </div>
