@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     // Check if user exists in database
     if (mysqli_num_rows($result) > 0) {
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php");
+        header("Location: reservatie_bewerken.php");
     } else {
         echo "<script>alert('Invalid username or password');</script>";
     }

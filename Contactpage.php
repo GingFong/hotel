@@ -101,6 +101,7 @@ include_once("nav.php")
                     </p>
                 </div>
                 <form action="contactpage.php">
+                <form action="contacrDB.php" method="POST">
                     <label for="fname">First name:</label>
                     <input type="text" id="fname" name="fname">
 
