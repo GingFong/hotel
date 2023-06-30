@@ -129,8 +129,8 @@ include_once("nav.php")
           <h4>Hotel ter duin</h4>
 
           <li><a href="informatie.html">about us</a></li>
-          <li><a href="#">our services</a></li>
-          <li><a href="privacybeleid.html">privacybeleid</a></li>
+          <li><a href="services.php">our services</a></li>
+          <li><a href="privacybeleid.php">privacybeleid</a></li>
           <li><a href="Contact.html">Contact</a></li>
 
         </div>
